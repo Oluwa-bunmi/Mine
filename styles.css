@@ -1,0 +1,55 @@
+
+.all{
+display: flex;
+justify-content: space-around;
+width: 500px;
+margin-left: -500px;
+
+}
+.logo img{
+    margin-left: -50px;
+    
+    margin-top: -5px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+h6{
+margin-left: -25px;
+margin-top: 5px;
+}
+.logo{
+    align-self: center;
+}
+.list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin-left: -100px;
+    color: white;
+
+}
+.second-header{
+display: flex;
+justify-content: space-around;
+background-color: #7B3F00;
+
+
+}
+.social-icon{
+margin-top: 12px;
+margin-left: -350px;
+color: white;
+
+}
+.swiper {
+  width: 100%;
+  height: 450px;
+}
+.text{
+    z-index: 1;
+    position: absolute;
+    top: 20px;
+}
