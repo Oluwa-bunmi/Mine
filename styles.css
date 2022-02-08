@@ -1,55 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: 0;
+  list-style: none;
+  text-decoration: none;
+}
 
-.all{
-display: flex;
-justify-content: space-around;
-width: 500px;
-margin-left: -500px;
+body {
+  font-family: "Poppins", sans-serif;
+}
+.all {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin-left: -500px;
+}
+.logo img {
+  margin-left: -50px;
 
+  margin-top: -5px;
 }
-.logo img{
-    margin-left: -50px;
-    
-    margin-top: -5px;
+.container {
+  display: flex;
+  justify-content: space-around;
 }
-.container{
-    display: flex;
-    justify-content: space-around;
+h6 {
+  margin-left: -25px;
+  margin-top: 5px;
 }
-h6{
-margin-left: -25px;
-margin-top: 5px;
+.logo {
+  align-self: center;
 }
-.logo{
-    align-self: center;
+.list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 400px;
+  margin-left: -100px;
+  color: white;
 }
-.list{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 400px;
-    margin-left: -100px;
-    color: white;
-
+.second-header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #7b3f00;
 }
-.second-header{
-display: flex;
-justify-content: space-around;
-background-color: #7B3F00;
-
-
-}
-.social-icon{
-margin-top: 12px;
-margin-left: -350px;
-color: white;
-
+.social-icon {
+  margin-top: 12px;
+  margin-left: -350px;
+  color: white;
 }
 .swiper {
   width: 100%;
   height: 450px;
 }
-.text{
-    z-index: 1;
-    position: absolute;
-    top: 20px;
+.text {
+  z-index: 1;
+  position: absolute;
+  top: 20px;
+  text-align: center;
+  padding-left: 250px;
+  padding-right: 250px;
+  color: white;
+}
+.text h4 {
+  font-size: 30px;
+  font-weight: 500px;
+  margin-top: 180px;
+}
+
+.text button {
+  background-color: #7b3f00;
+  color: white;
+  font-size: 15px;
+  border: none;
+  padding: 10px 20px 10px 20px;
+}
+
+h2 {
+  color: #252b42;
+  font-size: 40px;
+}
+.mid {
+  color: #7b3f00;
+  font-size: 14px;
+  font-weight: normal;
+}
+.next {
+  margin-left: 250px;
+}
+
+h3 {
+  color: #252b42;
+}
+.second {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  padding: 0px 19vw 0px 17vw;
+}
+.sec1 {
+  margin-left: 10px;
+  box-shadow: 0px 13px 19px;
+  width: 19vw;
+  height: 280px;
+}
+.third {
+  background: linear-gradient(180deg, #b0916e 0%, rgba(176, 145, 110, 0) 100%);
+  margin-top: 50px;
+  display: flex;
+  
+  justify-content: space-between;
+}
+
+.two {
+  margin-left: 250px;
+  margin-top: 150px;
+}
+.tho img {
+  margin-top: 150px;
+  height: 250px;
+  margin-left: -600px;
+}
+.forth{
+background-color: white;
+padding: 2vh 7vw;
+margin-top: 5%;
+}
+.forth h1{
+  margin-bottom: 1.5%;
+}
+.forth p{
+font-size: 16px;
+margin-bottom: 3%;
+}
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.wrapper h4{
+  text-align: center;
+  color: #7b3f00;
+}
+.wrap-box p{
+  padding: 12px 22px 9px 16px;
+}
+.wrap-box button{
+  height: 8vh;
+  width: 10vw;
+  border: 1px solid #7b3f00;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+.wrap-box button img{
+  margin-left: 8px;
+  margin-bottom: -5px;
+}
+.fifth{
+  padding: 2vh 15vw;
+}
+.ment, .decor{
+  margin-top: 44px;
+}
+.tilt{
+  margin-top: -30%;
+}
+.cake{
+  margin-top: 3%;
+}
+.fuck{
+margin-top: -210px;
+width: 300px;
+height: 532px;
+  
+}
+.duck{
+  margin-top: -180px;
+  margin-left: 20px;
+}
+.frit{
+  display: flex;
+}
+.cake{
+  margin-top: 40px;
+  
+}
+.blank{
+  margin-left: 200px;
+  margin-top: -280px;
 }
